@@ -1,0 +1,3 @@
+this is a file used to demostrating how 
+git commit --amend 
+function
