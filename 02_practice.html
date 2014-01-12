@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>田字布局</title>
+    <meta charset="utf-8"/>
+    <style>
+        #panel{
+            align-self: center;
+            background: blue;
+            width: 600px;
+            height: 600px;
+        }
+        #a{
+            width: 300px;
+            height: 300px;
+            background: red;
+            float: left;
+        }
+        #b{
+            width: 300px;
+            height: 300px;
+            background: green;
+            float: right;
+        }
+        #c{
+            width: 300px;
+            height: 300px;
+            background: yellow;
+            float: left;
+            clear: left;
+        }
+        #d{
+            width: 300px;
+            height: 300px;
+            float: right;
+            clear: right;
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+<div id="panel">
+    <div id="a">top-left</div>
+    <div id="b">top-right</div>
+    <div id="c">bottom-left</div>
+    <div id="d">bottom-right</div>
+</div>
+
+</body>
+</html>
