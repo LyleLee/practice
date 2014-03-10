@@ -15,6 +15,15 @@
             height:60px;
         }
     </style>
+    <script type="text/javascript">
+        function redirect(myurl)
+        {
+            if(confirm("打开在豆瓣中关于该图书的介绍信息"))
+            {
+                window.open(myurl);
+            }
+        }
+    </script>
 </head>
 <body>
 <div style="padding: 20px">
@@ -68,7 +77,7 @@
         </tr>
         <tr class="fill">
             <td>1</td>
-            <td>JavaScript高级编程(第二版)学习</td>
+            <td onclick="redirect('http://book.douban.com/subject/4886879/')"><u>JavaScript高级编程(第二版)学习</u></td>
             <td>2014-3-3</td>
             <td>2014-3-6</td>
             <td>阅读完整本书,并完成书中练习</td>
@@ -76,7 +85,7 @@
         </tr>
         <tr class="fill">
             <td>2</td>
-            <td>学习Node.js</td>
+            <td onclick="redirect('http://book.douban.com/subject/23780706/')"><u>学习Node.js</u></td>
             <td>2014-3-6</td>
             <td>2014-3-9</td>
             <td>阅读完整本书,并完成书中练习</td>
