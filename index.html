@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>第二周周报</title>
-    <meta charset="utf-8">
-    <style>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="第三周周报 : 基于网页的GDB远程调试" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>第三周周报</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/LyleLee/practice">View on GitHub</a>
+
+          <h1 id="project_title">第三周周报</h1>
+          <h2 id="project_tagline">基于网页的GDB远程调试</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/LyleLee/practice/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/LyleLee/practice/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>&lt;!DOCTYPE html&gt;
+</p>
+第三周周报
         .fill{
-            font-family: "微软雅黑";
+            font-family: &amp;quot;微软雅黑&amp;quot;;
             color: darkblue;
         }
         .tableTile{
@@ -14,114 +44,108 @@
         .space{
             height:60px;
         }
-    </style>
-    <script type="text/javascript">
-        function redirect(myurl)
-        {
-            if(confirm("打开在豆瓣中关于该图书的介绍信息"))
-            {
-                window.open(myurl);
-            }
-        }
-    </script>
-</head>
-<body>
-<div style="padding: 20px">
-<h1><p style="text-align: center">项目进度周报</p></h1>
-    <table border="1px"  cellspacing="0px" bordercolor="black">
-        <tr>
-            <td>项目名称</td>
-            <td class="fill">WebBasedGDB</td>
+    <div>
+<h1></h1>
+<p>项目进度周报</p>
+    <table border="1px" cellspacing="0px"><tbody>
+<tr>
+<td>项目名称</td>
+            <td>WebBasedGDB</td>
             <td>姓名</td>
-            <td class="fill">李先发</td>
+            <td>李先发</td>
             <td>填报日期</td>
-            <td class="fill">2014年3月9日10:10:47</td>
+            <td>2014年3月9日10:10:47</td>
         </tr>
-        <tr>
-            <td colspan="6" class="space"></td>
+<tr>
+<td colspan="6"></td>
         </tr>
-        <tr class="tableTile">
-            <th colspan="6">总体计划</th>
+<tr>
+<th colspan="6">总体计划</th>
         </tr>
-
-        <tr>
-            <td>序号</td>
+<tr>
+<td>序号</td>
             <td>工作内容</td>
             <td>计划开始时间</td>
             <td>计划结束时间</td>
             <td>定义完成的标志</td>
             <td>实际完成情况及检查结果</td>
         </tr>
-        <tr class="fill">
-            <td>1</td>
+<tr>
+<td>1</td>
             <td>WebBasedGDB</td>
             <td>2014-01-10</td>
             <td>2014-4-30</td>
             <td>系统可运行</td>
             <td>进行中</td>
         </tr>
-        <tr>
-            <td colspan="6" class="space"></td>
+<tr>
+<td colspan="6"></td>
         </tr>
-
-        <tr class="tableTile">
-            <th colspan="6">本周完成情况</th>
+<tr>
+<th colspan="6">本周完成情况</th>
         </tr>
-       <tr>
-            <td>序号</td>
+<tr>
+<td>序号</td>
             <td>工作内容</td>
             <td>计划开始时间</td>
             <td>计划结束时间</td>
             <td>定义完成的标志</td>
             <td>备注</td>
         </tr>
-        <tr class="fill">
-            <td>1</td>
-            <td onclick="redirect('http://book.douban.com/subject/4886879/')"><u>JavaScript高级编程(第二版)学习</u></td>
-            <td>2014-3-3</td>
-            <td>2014-3-6</td>
-            <td>阅读完整本书,并完成书中练习</td>
-            <td>完成,不过还是延迟了两天,有很多的收获,特别是DOM编程,还有事件. 现在终于知道了如何对页面中的元素添加响应方法. 以前只懂得上网,现在对网页的理解又进了一步. 感觉很高兴.其中也涉及一些浏览器兼容问题,我想针对firefox和chrome两个浏览器来设计</td>
-        </tr>
-        <tr class="fill">
-            <td>2</td>
-            <td onclick="redirect('http://book.douban.com/subject/23780706/')"><u>学习Node.js</u></td>
-            <td>2014-3-6</td>
-            <td>2014-3-9</td>
-            <td>阅读完整本书,并完成书中练习</td>
-            <td>未完成, 只看了第一章, 还不是很了解Node.js. 对js的了解没有像对其他语言一样熟, 我想多进行联系,会有所帮助</td>
-        </tr>
-        <tr>
-            <td colspan="6" class="space"></td>
-        </tr>
-        <tr class="tableTile">
-            <th colspan="6">下周工作计划</th>
-        </tr>
-        <tr>
-            <td>序号</td>
-            <td>工作内容</td>
-            <td>计划开始时间</td>
-            <td>计划结束时间</td>
-            <td>定义完成的标志</td>
-            <td>备注</td>
-        </tr>
-        <tr class="fill">
-            <td>1</td>
+<tr>
+<td>1</td>
             <td>node.js</td>
             <td>2014-3-10</td>
             <td>2014-3-15</td>
             <td>布置好linux下的node.js开发环境</td>
-            <td>这下子应该会设计怎么和浏览器交互了, 以前知道服务器会给浏览器发送html文件, 也知道一些jsp, php生成动态网页的只是,但是和浏览器的交互过程,感觉知之甚少,希望这一周的学习会有更大的收获</td>
+            <td>完成, 安装很容易,根据readme一步一步来就好了, 给我的感觉和python解释器类似, 可以直接执行命令,也可以执行整个脚本. 那本node.js我没有看完. 老师给我推荐的那个教程很好. 我认真阅读也一边, 并把上面的例子也实践了. 另外, 有一本书叫做<a href="">NodeJS开发指南</a>里面讲得很详细、系统,让我收获很多.</td>
         </tr>
-        <tr class="fill">
-            <td>2</td>
+<tr>
+<td>2</td>
             <td>linux下的开发环境</td>
             <td>2014-3-15</td>
             <td>2014-3-16</td>
             <td>把后台布置好,以后就要开始在linux下工作了</td>
-            <td>大二的时候在ubuntu上玩了很长世间, 后面有一段时间在linux下用vim和GDB写程序, 感觉很舒服,现在重新回来. 难度应该不会很大</td>
+            <td>完成, 和我想象的不一样, nodeJS不需要想其他web框架一样的服务器, 比如jsp需要一个apache来处理静态页面,同时配备一个tomcat来解释jsp脚本. 在nodeJS里, 需要动手亲自写出一个服务器. 也就是说, 它是和浏览器直接交互的, 这点让我感觉很意外.</td>
         </tr>
-    </table>
-  </div>
-</body>
+<tr>
+<td colspan="6"></td>
+        </tr>
+<tr>
+<th colspan="6">下周工作计划</th>
+        </tr>
+<tr>
+<td>序号</td>
+            <td>工作内容</td>
+            <td>计划开始时间</td>
+            <td>计划结束时间</td>
+            <td>定义完成的标志</td>
+            <td>备注</td>
+        </tr>
+<tr>
+<td>1</td>
+            <td>前后台同时开始编码</td>
+            <td>2014-3-17</td>
+            <td>2014-3-23</td>
+            <td>可以提交文件,并在后台编译好,返回编译结果</td>
+            <td>学了就要用,还是实践一点真实的内容才能巩固知识. 下周要实现写出前台的一个提交页面,通过表单的形式提交代码,并在后台用nodeJS调用GCC/G++编译. 至于webSocket,boostrap我想等一下在学习,我想在我实践的过程当中会碰到有问题,需要一些新特性去解决的时候再去寻找.</td>
+        </tr>
+</tbody></table>
+</div>
+
+<p></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">第三周周报 maintained by <a href="https://github.com/LyleLee">LyleLee</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>
